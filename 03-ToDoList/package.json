@@ -1,0 +1,23 @@
+{
+  "name": "01-number-guess-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index1.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "chalk-animation": "^2.0.3"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
